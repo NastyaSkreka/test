@@ -1,0 +1,42 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px;
+}
+.logo {
+    width: 460px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+
+}
+.form {
+    display: flex;
+    align-items: center;
+    background: var(--bg);
+    border-radius: 20px;
+    height: 60px;
+    padding: 12px 25px;
+    width: 530px;
+    border: 1px solid #ccc;
+    
+}
+.form:focus {
+    border-color: var(--sea); 
+    box-shadow: 0 0 5px 0 rgba(0, 123, 255, 0.5); 
+}
+.input {
+    flex-grow: 1;
+  }
+  
+.input input {
+    font-family: Montserrat, Roboto, sans-serif;
+    font-size: 25px;
+    color: var(--grey);
+    background: none;
+    outline: none;
+    width: 100%;
+}
